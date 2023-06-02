@@ -1,0 +1,123 @@
+{
+  "clientes": [
+    {
+      "id": 1,
+      "nome": "Henrique",
+      "email": "henrique@gmail.com",
+      "telefone": "12345",
+      "cpf": "123456789",
+      "senha": "senha"
+    },
+    {
+      "id": 2,
+      "nome": "teste",
+      "email": "teste@teste",
+      "telefone": "12345",
+      "cpf": "12345",
+      "senha": "teste"
+    },
+    {
+      "id": 3,
+      "nome": "teste2",
+      "email": "teste@teste.com",
+      "telefone": "(11)11111.____",
+      "cpf": "11111"
+    },
+    {
+      "id": 4,
+      "nome": "",
+      "email": "",
+      "telefone": "",
+      "cpf": ""
+    },
+    {
+      "id": 5,
+      "nome": "ttest",
+      "email": "ttset@teset.com",
+      "telefone": "(32)32323-23__",
+      "cpf": "111.111.111-00"
+    },
+    {
+      "id": 6,
+      "nome": "test",
+      "email": "tete@este.com",
+      "telefone": "(11)11111-1___",
+      "cpf": "111.111.111-00"
+    },
+    {
+      "id": 7,
+      "nome": "thiago",
+      "email": "thiago@gmail.com",
+      "telefone": "(11)11111-11__",
+      "cpf": "111.111.111-11"
+    },
+    {
+      "id": 8,
+      "nome": "teste",
+      "email": "teste@teste.com",
+      "telefone": "(11)11111-1111",
+      "cpf": "111.111.111-11",
+      "senha": "123"
+    }
+  ],
+  "filmes": [
+    {
+      "id": 1,
+      "titulo": "O Poderoso Chefão",
+      "ano": 1972,
+      "genero": "Drama",
+      "diretor": "Francis Ford Coppola",
+      "status": false,
+      "atores": [
+        "Marlon Brando",
+        "Al Pacino",
+        "James Caan"
+      ]
+    },
+    {
+      "id": 2,
+      "titulo": "O Poderoso Chefão II",
+      "ano": 1974,
+      "genero": "Drama",
+      "diretor": "Francis Ford Coppola",
+      "status": false,
+      "atores": [
+        "Al Pacino",
+        "Robert De Niro",
+        "Robert Duvall"
+      ]
+    },
+    {
+      "id": 3,
+      "titulo": "O Poderoso Chefão III",
+      "ano": 1990,
+      "genero": "Drama",
+      "diretor": "Francis Ford Coppola",
+      "status": false,
+      "atores": [
+        "Al Pacino",
+        "Diane Keaton",
+        "Andy Garcia"
+      ]
+    },
+    {
+      "id": 4,
+      "titulo": "Cassino",
+      "ano": 1990,
+      "genero": "Drama",
+      "diretor": "Francis Ford Coppola",
+      "status": true,
+      "atores": [
+        "Diane Keaton",
+        "Andy Garcia"
+      ]
+    }
+  ],
+  "generos": [
+    "Drama",
+    "Comédia",
+    "Ação",
+    "Terror",
+    "Suspense"
+  ]
+}
