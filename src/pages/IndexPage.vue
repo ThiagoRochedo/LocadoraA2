@@ -2,7 +2,7 @@
   <q-page class="q-pa-md">
     <div v-if="naoLogado()">
       <div class="text-center q-my-md">
-        <h2 class="text-h6">Olá! Seja bem vindo! Faça seu login</h2>
+        <h2 class="text-h6">Olá! Seja bem vindo!! Faça seu login</h2>
       </div>
       <div class="my-styled-container q-pa-lg">
         <div v-if="!showFormCliente">
@@ -43,7 +43,7 @@
         <h5>Todos os filmes</h5>
       </div>
       <div v-for="filme in filmes" :key="filme.id">
-        
+
         <FilmeCard
           :filme="filme"
           :logado="!naoLogado()"
@@ -99,7 +99,7 @@ export default defineComponent({
       appStore.carrinho.cliente = appStore.cliente;
       appStore.carrinho.filmes.push(filme);
       appStore.carrinho.data = new Date();
-      
+
       Services.locarFilme(filme, (statusAtualizado) => {
         if (statusAtualizado) {
           this.filmes = this.filmes.map((f) => {
